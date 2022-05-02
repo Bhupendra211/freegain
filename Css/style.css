@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Index page Css Design started */
+.background{
+    background-image: url('../images/bg.jpg');
+    color: white;
+    font-family: 'Anek Bangla', sans-serif;
+}
+
+.box{
+    border: 1px solid rgb(118, 118, 249);
+    border-radius: 25px;
+    background-color: white;
+}
+/* Index page Css Design ended */
+
+/* Only for Mobile Devices */
+@media only screen and (max-width: 480px) {
+    .background{
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/bg.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        font-size: 17px !important;
+        
+    }
+    .background h2{padding-top: 1rem; font-size: 23px;}
+
+    .background ul{margin-top: 1rem; }
+
+}
+
+/* Only for Tablet Dievices */
+@media only screen and (min-width: 600px) {
+    .background{
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/bg.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        font-size: 22px !important;
+        
+    }
+    .background h2{padding-top: 2rem; font-size: 2rem;}
+
+    .background ul{margin-top: 2.5rem; margin-left: 3rem;}
+}
+
+/* Only for desktop Devices */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Footer */
+.footer{
+    position: sticky;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+/* End Footer */
+
+
+/* Dashboard Started Here */
+.main{
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.manager{
+    padding-top: 5rem;
+}
+
+.box1{
+    border: 1px solid rgb(47, 47, 64);
+    border-radius: 25px;
+    background-color: rgb(211, 194, 66);
+}
+
+
+/* Dashboard Ended Here */
